@@ -1,0 +1,22 @@
+﻿/* Default: Alles ausgeblendet, JS schaltet dies ein */
+div[data-item="hol_wiki_title"] {
+  display: none;
+}
+/* Default: Standard-Stile */
+div[data-item="hol_wiki_title"] h1 {
+  color:Orange;
+}
+div[data-item="hol_wiki_title"] div {
+  border-bottom: 4px solid green;
+}
+div[data-item="qs-filter"] {
+  float: right;
+  margin: 15px;
+}
+div[data-item="qs-filter"] a {
+  display: block;
+  padding: 5px;
+  background-color: azure;
+  border: 2px solid blue;
+  text-decoration: none;
+}

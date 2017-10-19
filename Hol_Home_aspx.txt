@@ -1,0 +1,11 @@
+<div data-item="hol-nav" 
+     style="padding: 15px; font-size: 36px; font-weight: bold;"> 
+ <a href="/events/SitePages/events.aspx" 
+    style="padding: 10px; border: 2px solid blue; 
+           display: inline-block; background-color: azure;">
+ Upcoming Events</a>
+ <a href="/events/SitePages/bookings.aspx" 
+    style="padding: 10px; border: 2px solid blue;  
+           display: inline-block; background-color: azure;">
+ My Bookings</a
+</div>
