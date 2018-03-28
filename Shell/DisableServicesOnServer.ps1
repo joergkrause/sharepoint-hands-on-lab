@@ -1,4 +1,6 @@
-﻿Write-Host "Loading SnapIn:`n"
+﻿Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
+
+Write-Host "Loading SnapIn:`n"
 Add-PSSnapin Microsoft.SharePoint.PowerShell
 Write-Host "Disabling Services:`n"
 $version = (Get-SPFarm).BuildVersion.Major

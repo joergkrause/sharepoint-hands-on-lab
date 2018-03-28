@@ -1,4 +1,5 @@
-﻿$pc = $env:computername;
+﻿Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
+$pc = $env:computername;
 Write-Host "Asking $pc"
 $service = Get-WmiObject Win32_Service -Filter 'Name="wuauserv"' -ComputerName $pc -Ea 0
 if ($service)
